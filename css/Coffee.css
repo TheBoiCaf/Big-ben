@@ -1,0 +1,90 @@
+body {
+    background: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    background: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+}
+
+nav a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    color: #f9f9f9;
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #f00;
+    border-bottom: 2px solid #f00;
+}
+
+div.container {
+    position: relative;
+    top: 3em;
+    margin: 20px auto;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+div.inner {
+    border-right: 1px solid #888;
+    border-left: 1px solid #888;
+    border-top: 1px solid #888;
+    padding: 5px;
+}
+
+h2 {
+    margin-left: 2em;
+    text-align: center; /* Align h2 center in case it's centered */
+}
+
+p {
+    padding: 0 1em 0 1em;
+    text-indent: 2em;
+}
+
+.floatLeft,
+.floatRight {
+    display: block;
+    height: 150px;
+    margin: 10px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.drink-category {
+    width: 45%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+#left-pane {
+	padding: 10px;
+    float:left;
+    width: 45%;
+}
+#right-pane {
+    padding: 10px;
+    float: right;
+    width: 45%;
+}
